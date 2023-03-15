@@ -8,7 +8,7 @@ import {Button,Flex,Heading,Image,Stack,Text} from '@chakra-ui/react';
 
   export default function Home() {
     return (
-        <Stack bg={'#c1cbd5'}>
+        <Stack id='home' bg={'#c1cbd5'}>
             <Heading
               textAlign={{ base: "center", md: "left", lg: "left" }}
               fontSize={{ base: "2xl", md: "3xl", lg: "4xl" }}

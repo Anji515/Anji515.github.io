@@ -3,11 +3,24 @@ import { Box, Flex, Image} from '@chakra-ui/react';
 
 export default function Navbar() {
 
+// Create a portfolio with the following components using the following attributes:
+
+// Navbar : id="nav-menu"
+// Home section : id="home"
+// About section : id="about" class="about section"
+// Skills section : id="skills"
+// Projects section : id="projects"
+// Contact section : id="contact"
+
+
   return (
-    <div style={{zIndex:1, position:'sticky'}}>
+    <>
       <Box
+        id="nav-menu"
         width={"100%"}
         bg="#2a2b2b"
+        position={'sticky'}
+        zIndex={1}
         mb="0.2vh"
         paddingRight={{ base: "10px", md: "50px", lg: "40px" }}
         pl={{ base: "10px", md: "50px", lg: "40px" }}
@@ -117,6 +130,6 @@ export default function Navbar() {
         </Flex>
 
       </Box>
-    </div>
+    </>
   );
 }
