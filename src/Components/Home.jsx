@@ -12,8 +12,9 @@ import {Button,Flex,Heading,Image,Stack,Text} from '@chakra-ui/react';
             <Heading
               textAlign={{ base: "center", md: "left", lg: "left" }}
               fontSize={{ base: "2xl", md: "3xl", lg: "4xl" }}
+              id="user-detail-name"
             >
-              <Text color={"blue.600"} as={"span"}>
+              <Text color={"blue.600"} as={"span"} >
                 Hi 👋, I'am
                 <br />
                 Kommu Anjaneyulu
@@ -23,13 +24,13 @@ import {Button,Flex,Heading,Image,Stack,Text} from '@chakra-ui/react';
               fontSize={{ base: "md", lg: "lg" }}
               color={"gray.800"}
               textAlign={{ base: "left", md: "left", lg: "left" }}
+              id="user-detail-intro"
             >
               Detailed-oriented and responsible Full-Stack Web Developer with a
               great knowledge of Web Development. Capable of writing efficient
               code using ReactJS, CSS, NodeJS and Express. Passionate about
               coding and looking for an opportunity in software development.
             </Text>
-
 
         </Stack>
     );
