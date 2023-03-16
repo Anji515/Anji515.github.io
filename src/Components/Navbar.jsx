@@ -1,135 +1,37 @@
-import {Link} from "react-scroll"
-import { Box, Flex, Image} from '@chakra-ui/react';
+import Style from "./Nav.module.css"
+import {Link} from 'react-scroll';
 
+import DownloadIcon from '@mui/icons-material/Download';
+import myResume from "../Logos/Kommu-Anjaneyulu-Resume.pdf"
+// import { Tooltip } from "@mui/material";
 export default function Navbar() {
-
-// Create a portfolio with the following components using the following attributes:
-
-// Navbar : id="nav-menu"
-// Home section : id="home"
-// About section : id="about" class="about section"
-// Skills section : id="skills"
-// Projects section : id="projects"
-// Contact section : id="contact"
-
 
   return (
     <>
-      <Box
-        id="nav-menu"
-        width={"100%"}
-        bg="#2a2b2b"
-        position={'sticky'}
-        zIndex={1}
-        mb="0.2vh"
-        paddingRight={{ base: "10px", md: "50px", lg: "40px" }}
-        pl={{ base: "10px", md: "50px", lg: "40px" }}
-        border={"0px solid red"}
-        borderBottom={"0px solid yellow"}
-        color='black'
-        boxShadow="2xl"
-        padding={'20px'}
-      >
-        <Flex
-          w={{ base: "90%", md: "70%", lg: "60%" }}
-          border={"0px solid blue"}
-          h={16}
-          alignItems={"center"}
-          justifyContent={"space-around"}
-          color={"black"}
-          fontWeight={"bold"}
-        >
-          <Box
-            fontSize={{ base: "15px" }}
-            color="white"
-          >
-            <Link
-              to="home"
-              spy={true}
-              smooth={true}
-              offset={-50}
-              duration={300}
-            >
-              Home
-            </Link>
-          </Box>
+      
+      <div id="nav-menu" className={Style.nav}>
+        <div className={Style.logo}>
+           Kommu Anjaneyulu
+        </div>
+        <div className={Style.leftMenu} >
+             <ul className={Style.ulMenu}>
+              <li className="nav-link home"><Link to="home" smooth>Home</Link></li>
+              <li className="nav-link about"><Link to="about" smooth>About</Link></li>
+              <li className="nav-link skills"><Link to="skills" smooth>Skills</Link></li>
+              <li className="nav-link projects"><Link to="projects" smooth>Project</Link></li>
+              <li className="nav-link contact"><Link to="contact" smooth>Contact</Link></li>
+              <li id="resume-button-1" className={[Style.btnRes,"nav-link resume"]} data-tooltip-variant="light"  data-tooltip-content="Resume"><a id="resume-link-1" href={myResume}  download="Kommu-Anjaneyulu-Resume" 
+              target={"_blank"} rel="noreferrer">
+              Resume <DownloadIcon/>
+              {/* <DownloadIcon/>  */}
+              {/* <Tooltip anchorId="resume-button-1" /> */}
+              </a>   </li>
+             
+             </ul>
+        </div>
+      </div>
 
-          <Box
-            fontSize={{ base: "15px" }}
-            color="white"
-          >
-            <Link
-              to="about"
-              spy={true}
-              smooth={true}
-              offset={-100}
-              duration={300}
-            >
-              About
-            </Link>
-          </Box>
-
-          <Box
-            fontSize={{ base: "15px" }}
-            color="white"
-          >
-            <Link
-              to="skills"
-              spy={true}
-              smooth={true}
-              offset={-140}
-              duration={300}
-            >
-              Skills
-            </Link>
-          </Box>
-
-          <Box
-            fontSize={{ base: "15px" }}
-            color="white"
-          >
-            <Link
-              to="projects"
-              spy={true}
-              smooth={true}
-              offset={-100}
-              duration={300}
-            >
-              Projects
-            </Link>
-          </Box>
-
-          <Box
-            fontSize={{ base: "15px" }}
-            color="white"
-          >
-            <Link
-              to="contactme"
-              spy={true}
-              smooth={true}
-              offset={-80}
-              duration={300}
-            >
-              Contact
-            </Link>
-          </Box>
-
-          <Box
-            fontSize={{ base: "15px" }}
-            color="white"
-          >
-            <a
-              href="https://drive.google.com/file/d/1MhDADid2r2QHYGXwt14iYkO5sJKM8-WA/view?usp=share_link"
-              target="_blank"
-              rel="noreferrer noopener"
-              style={{ color: "inherit" }}
-            >
-              Resume
-            </a>
-          </Box>
-        </Flex>
-
-      </Box>
+      
     </>
   );
 }

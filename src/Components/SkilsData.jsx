@@ -1,6 +1,6 @@
 import {Box,Center,Heading,Stack,Image} from '@chakra-ui/react';
   
-  export default function SkillsData({src ,name}) {
+  export default function SkilsData({src ,name}) {
     return (
 
       <Center bg={'#cbd5e0'} py={12}>
@@ -22,6 +22,7 @@ import {Box,Center,Heading,Stack,Image} from '@chakra-ui/react';
             height={'60%'}
             >
             <Image
+              className="skills-card-img"
               rounded={'lg'}
               height={120}
               width={100}
@@ -30,7 +31,7 @@ import {Box,Center,Heading,Stack,Image} from '@chakra-ui/react';
               margin="auto"
             />
           </Box>
-          <Stack pt={10} align={'center'}>
+          <Stack pt={10} align={'center'} className="skills-card-name">
             <Heading fontSize={'15px'} fontFamily={'body'} fontWeight={'bold'}>
               {name}
             </Heading>

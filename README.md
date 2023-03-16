@@ -70,6 +70,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
+Github Stats Links:-
+## https://github-readme-streak-stats.herokuapp.com/?user=Anji515&theme=dark&border_radius=8.9&date_format=M%20j%5B%2C%20Y%5D
+<!-- All Commits -->
+## https://github-readme-stats.vercel.app/api?username=Anji515&show_icons=true&theme=radical
+
+<!-- Trophies -->
+## https://camo.githubusercontent.com/d1ac348c4174449ebdd7147524f5687ac0398a461d149380fba275552f6d745d/68747470733a2f2f6769746875622d70726f66696c652d74726f7068792e76657263656c2e6170702f3f757365726e616d653d416e6a69353135267468656d653d6461726b687562266e6f2d6672616d653d66616c7365266e6f2d62673d66616c7365266d617267696e2d773d34
+<!-- Languages -->
+ ## https://github-readme-stats.vercel.app/api/top-langs/?username=Anji515&show_icons=true&theme=radical
+
+
+
 Problem Statement and Instructions:-
 Create a portfolio with the following components using the following attributes:
 
