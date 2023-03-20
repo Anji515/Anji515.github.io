@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c838e686.css",
-    "main.js": "/static/js/main.07433567.js",
+    "main.css": "/static/css/main.1f63c24a.css",
+    "main.js": "/static/js/main.0ccc5021.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/linkedin.png": "/static/media/linkedin.5d1ddeaf918afefc130c.png",
     "static/media/address.png": "/static/media/address.448afbc6ea3fcbdd4e8b.png",
@@ -14,12 +14,12 @@
     "static/media/Kommu-Anjaneyulu-Resume.pdf": "/static/media/Kommu-Anjaneyulu-Resume.e7a7d795ccc08636dfd2.pdf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.c838e686.css.map": "/static/css/main.c838e686.css.map",
-    "main.07433567.js.map": "/static/js/main.07433567.js.map",
+    "main.1f63c24a.css.map": "/static/css/main.1f63c24a.css.map",
+    "main.0ccc5021.js.map": "/static/js/main.0ccc5021.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c838e686.css",
-    "static/js/main.07433567.js"
+    "static/css/main.1f63c24a.css",
+    "static/js/main.0ccc5021.js"
   ]
 }
