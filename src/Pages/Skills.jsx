@@ -1,4 +1,3 @@
-
 import Slider from "react-slick";
 import {Box, Heading} from "@chakra-ui/react"
 import SkilsData from "../Components/SkilsData";
@@ -64,7 +63,7 @@ function Skills() {
     <Box id="skills" h={"fit-content"} bg={"#cbd5e0"}>
       <hr />
       <Heading textAlign={"center"} color={"blue.600"}>
-        Skills
+        Technical Skills
       </Heading>
       <Slider {...settings}>
         {SkillsImg.map((el) => (

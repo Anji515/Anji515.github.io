@@ -1,8 +1,9 @@
 import Style from "./Nav.module.css"
 import {Link} from 'react-scroll';
+import { Button, color } from '@chakra-ui/react';
 
-import DownloadIcon from '@mui/icons-material/Download';
-import myResume from "../Logos/Kommu-Anjaneyulu-Resume.pdf"
+// import DownloadIcon from '@mui/icons-material/Download';
+import resume from '../DownloadPDF/Kommu-Anjaneyulu-Resume.pdf'
 // import { Tooltip } from "@mui/material";
 export default function Navbar() {
 
@@ -20,13 +21,11 @@ export default function Navbar() {
               <li className="nav-link skills"><Link to="skills" smooth>Skills</Link></li>
               <li className="nav-link projects"><Link to="projects" smooth>Project</Link></li>
               <li className="nav-link contact"><Link to="contact" smooth>Contact</Link></li>
-              <li id="resume-button-1" className={[Style.btnRes,"nav-link resume"]} data-tooltip-variant="light"  data-tooltip-content="Resume"><a id="resume-link-1" href={myResume}  download="Kommu-Anjaneyulu-Resume" 
+              <a id="resume-link-1" target={"_blank"} href={resume} rel="noreferrer" >
+              <Button id="resume-button-1" background={'blue.400'} className={"nav-link resume"}><Link to="resume-button-2" smooth>Resume</Link></Button></a>
+              {/* <li id="resume-button-1" className={Style.btnRes} ><a id="resume-link-1"   download="Kommu-Anjaneyulu-Resume" 
               target={"_blank"} rel="noreferrer">
-              Resume <DownloadIcon/>
-              {/* <DownloadIcon/>  */}
-              {/* <Tooltip anchorId="resume-button-1" /> */}
-              </a>   </li>
-             
+              <Link to="nav-link resume" smooth>Resume</Link></a> </li> */}
              </ul>
         </div>
       </div>

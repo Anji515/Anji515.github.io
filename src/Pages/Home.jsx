@@ -2,25 +2,15 @@ import {Button,Flex,Heading,Image,Stack,Text} from '@chakra-ui/react';
 import { DownloadIcon } from '@chakra-ui/icons'
 import { Link } from "react-scroll";
 import React from "react";
-
-
-const handleDownloadResume = ()=>{
-  fetch("Kommu-Anjaneyulu-Resume.pdf").then ((res)=>{
-    res.blob().then((blob)=>{
-      const fileUrl = window.URL.createObjectURL(blob);
-      let file = document.createElement("a");
-      file.href = fileUrl;
-      file.download = "Kommu-Anjaneyulu-Resume.pdf";
-      file.click();
-      file.target= "_blank"
-    });
-  });
-}
+import resume from '../DownloadPDF/Kommu-Anjaneyulu-Resume.pdf'
+// console.log('resume:', resume)
 
   export default function Home() {
+
     return (
+      <div id='home'>
+
       <Stack
-      id="home"
       border={"0px solid black"}
       h={{ base: "auto", md: "500px", lg: "500px" }}
       padding="20px 20px"
@@ -41,8 +31,9 @@ const handleDownloadResume = ()=>{
           alt={"Anji Image"}
           objectFit={"cover"}
           borderRadius={"50%"}
+          border="5px solid teal"
           boxShadow="2xl"
-          width={'50%'}
+          width={'45%'}
           src={
             "https://i.ibb.co/Q9HgQnN/MyPhotos.jpg"
           }
@@ -53,17 +44,18 @@ const handleDownloadResume = ()=>{
         align={"center"}
         justify={"center"}
         
-      >
+        >
         <Stack
           // spacing={6}
           w={{ base: "92%", md: "98%", lg: "100%" }}
           // marginLeft='-350px'
-        >
+          >
           <Heading
+            id="user-detail-name"
             textAlign={{ base: "center", md: "left", lg: "left" }}
             fontSize={{ base: "2xl", md: "3xl", lg: "4xl" }}
           >
-            <Text color={"blue.500"} as={"span"}>
+            <Text  color={"blue.500"} as={"span"}>
               Hi 👋, I'am
               <br />
               Kommu Anjaneyulu
@@ -80,13 +72,13 @@ const handleDownloadResume = ()=>{
             coding and looking for an opportunity in software development.
           </Text>
           <Stack direction={{ base: "column", md: "row" }} spacing={4}>
-            
+          <a href={resume} download>
               <Button
-                onClick={handleDownloadResume}
+                // onClick={handleDownloadResume}
                 rounded={"full"}
                 bg={"blue.400"}
                 color={"white"}
-                id="resume-link-2"
+                id="resume-button-2"
                 _hover={{
                   bg: "gray.200",
                   color: "black",
@@ -95,15 +87,16 @@ const handleDownloadResume = ()=>{
                 <Text m={"4px"}>Resume</Text>
                 <DownloadIcon />
               </Button>
+                </a>
            
             <Link
-              to="contactme"
+              to="contact"
               spy={true}
               smooth={true}
               offset={-80}
               duration={300}
-            >
-              <Button
+              >
+              <Button to='contact'
                 rounded={"full"}
                 _hover={{
                   bg: "blue.400",
@@ -118,5 +111,6 @@ const handleDownloadResume = ()=>{
         </Stack>
       </Flex>
      </Stack>
+          </div>
       );
   }

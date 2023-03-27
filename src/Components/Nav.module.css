@@ -20,17 +20,14 @@
 .leftMenu{
     /* border:1px solid blue; */
     width: 70%;
-    
+    padding-right: 5px;
 }
 
 .ulMenu{
     display: flex;
     font-size: 1rem;
-    /* gap: ; */
     justify-content: right;
     align-items: center;
-    /* margin-right: 2rem; */
-
 }
 
 .leftMenu ul li{
@@ -38,14 +35,7 @@
     padding: 0.5rem 1rem;
     border-radius: 0.3rem;
     margin: 0 0.5rem;
-}
-.btnRes{
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    border-radius: 0.3rem;
-    background-color: rgba(255, 4, 4, 0.589) ;
-    margin-right: 1rem;
-    /* margin: 0 0.5rem; */
+    cursor: pointer;
 }
 
 .leftMenu ul li:hover{

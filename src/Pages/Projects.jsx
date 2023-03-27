@@ -4,7 +4,7 @@ export const Projects=()=>{
 
     return(
         <div id="projects" >
-         <Heading>Welocome to projects</Heading>
+         
         </div>
     )
 }

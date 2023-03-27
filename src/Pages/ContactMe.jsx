@@ -8,13 +8,13 @@ import address from '../Logos/address.png';
 
 function ContactMe() {
   return (
-    <Box id="contact" backgroundColor={"blackAlpha.800"} p="2rem" border={'1px sloid red'}>
+    <div id="contact">
+    <Box backgroundColor={"blackAlpha.800"} p="2rem" border={'1px sloid red'}>
       <Flex  borderBottom={"2px solid red"}
       w="90%" m="auto" justifyContent={"center"} fontSize={"2.5rem"} color={"white"} fontWeight="700">
         <Text>Contact </Text>
         <Text color="red" ml="0.5rem">Me</Text>
       </Flex >
-{/* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */}
       <Box  m="auto" mt="4rem" w={{base:"100%",sm:"90%",md:"50%",lg:"40%"}}>
         <Flex flexDirection={"column"}  gap="1rem" p={"1rem"}>
 
@@ -23,14 +23,14 @@ function ContactMe() {
             <Text>
             <a href="">
                 <Text color={"red.500"} fontWeight="500" pl={"1rem"}>
-                  Ahemdnagar , Maharashtra.
+                  Hyderabad , Telngana.
                 </Text>
               </a>
             </Text>
           </Flex>
 
           <Flex  id="contact-email"
- justifyContent={"left"} alignItems="center" >
+              justifyContent={"left"} alignItems="center" >
             <Image display={"inline-block"} src={gmail} w="2rem"></Image>
             <Text>
               <a href="mailto:anji.gd17@gmail.com" target={"_blank"} rel="noreferrer">
@@ -72,6 +72,7 @@ function ContactMe() {
         </Flex>
       </Box>
     </Box>
+    </div>
   );
 }
 
