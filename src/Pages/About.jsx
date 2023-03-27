@@ -26,7 +26,7 @@ export const About=()=>{
             </Box>
           </Flex>
 
-          <Stack id="about"  class="about section" marginTop='7%' spacing={4} >
+          <Stack id="about"  class="about section" marginTop='40%' spacing={4} >
             <Heading textAlign={{base:'center',md:'left',lg:'left'}} color={"blue.600"}>
               About Me
             </Heading>

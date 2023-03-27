@@ -23,9 +23,6 @@ export default function Navbar() {
               <li className="nav-link contact"><Link to="contact" smooth>Contact</Link></li>
               <a id="resume-link-1" target={"_blank"} href={resume} rel="noreferrer" >
               <Button id="resume-button-1" background={'blue.400'} className={"nav-link resume"}><Link to="resume-button-2" smooth>Resume</Link></Button></a>
-              {/* <li id="resume-button-1" className={Style.btnRes} ><a id="resume-link-1"   download="Kommu-Anjaneyulu-Resume" 
-              target={"_blank"} rel="noreferrer">
-              <Link to="nav-link resume" smooth>Resume</Link></a> </li> */}
              </ul>
         </div>
       </div>
