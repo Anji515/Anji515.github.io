@@ -8,7 +8,7 @@ import Skills from './Pages/Skills';
 import ContactMe from './Pages/ContactMe';
 import Tools from './Pages/Tools';
 import { About } from './Pages/About';
-import { Projects } from './Pages/Projects';
+import Projects from './Pages/Projects';
 
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
       <About />
       <Skills />
       <Tools />
-      <Projects/>
+      {/* <Projects/> */}
       <GitCalender />
       <GitStats />
       <ContactMe />
