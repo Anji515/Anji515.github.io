@@ -19,7 +19,7 @@ function App() {
       <About />
       <Skills />
       <Tools />
-      {/* <Projects/> */}
+      <Projects/>
       <GitCalender />
       <GitStats />
       <ContactMe />

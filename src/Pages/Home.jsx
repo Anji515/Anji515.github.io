@@ -33,7 +33,7 @@ import resume from '../DownloadPDF/Kommu-Anjaneyulu-Resume.pdf'
           borderRadius={"50%"}
           border="5px solid teal"
           boxShadow="2xl"
-          width={'45%'}
+          width={'52%'}
           src={
             "https://i.ibb.co/Q9HgQnN/MyPhotos.jpg"
           }

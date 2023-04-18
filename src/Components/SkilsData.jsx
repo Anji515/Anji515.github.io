@@ -23,7 +23,7 @@ import {Box,Center,Heading,Stack,Image} from '@chakra-ui/react';
             height={'60%'}
             >
             <Image
-              // className="skills-card-img"
+              className="skills-card-img"
               rounded={'lg'}
               height={120}
               width={100}
@@ -33,7 +33,7 @@ import {Box,Center,Heading,Stack,Image} from '@chakra-ui/react';
             />
           </Box>
           <Stack pt={10} align={'center'} 
-          // className="skills-card-name"
+          className="skills-card-name"
           >
             <Heading fontSize={'15px'} fontFamily={'body'} fontWeight={'bold'}>
               {name}
