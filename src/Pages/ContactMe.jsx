@@ -9,8 +9,8 @@ import address from '../Logos/address.png';
 function ContactMe() {
   return (
     <div id="contact">
-    <Box backgroundColor={"#483b95"} p="2rem" border={'1px sloid red'}>
-      
+    <Box backgroundColor={"#1a202c"} p="2rem" border={'1px sloid red'}>
+      <br />
       <Flex  borderBottom={"2px solid red"}
         w="90%" m="auto" justifyContent={"center"} fontSize={"2.5rem"} color={"white"} fontWeight="700">
         <Text>Contact </Text>

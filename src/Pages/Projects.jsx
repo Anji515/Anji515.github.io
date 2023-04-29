@@ -29,6 +29,9 @@ const Projects = () => {
       return (
         <>
           <div id="projects">
+            <br />
+            <br />
+            <br />
             <Heading textAlign={"center"} color={"blue.600"}>
               Projects
             </Heading>
@@ -83,7 +86,7 @@ const Projects = () => {
                     </div>
                   </div>
                   <Flex mt={"30px"} pt={"20px"} justifyContent={"space-evenly"}>
-                      <div className="project-github-link">
+                      <a className="project-github-link">
                     <button className={style.btn}>
                       <Link href={gadgetValutGithub} target="_blank">
                         <img
@@ -101,9 +104,9 @@ const Projects = () => {
                         Github
                       </Link>
                     </button>
-                      </div>
+                      </a>
 
-                      <div className="project-deployed-link">
+                      <a className="project-deployed-link">
                     <button className={style.btn}>
                       <Link href={gadgetValut_D_Link} target="_blank">
                         <img
@@ -121,7 +124,7 @@ const Projects = () => {
                         Live
                       </Link>
                     </button>
-                      </div>
+                      </a>
                   </Flex>
                 </div>
               </div>
@@ -177,7 +180,7 @@ const Projects = () => {
                     justifyContent={"space-evenly"}
                   >
                     <button className={style.btn}>
-                      <div className="project-github-link" >
+                      <a className="project-github-link" >
                       <Link href={kfcGithub} target="_blank">
                         <img
                           style={{
@@ -193,10 +196,10 @@ const Projects = () => {
                         />{" "}
                         Github
                       </Link>
-                      </div>
+                      </a>
                     </button>
 
-                    <div className="project-deployed-link">
+                    <a className="project-deployed-link">
                     <button className={style.btn}>
                     <Link href={kfc_D_Link} target="_blank">
                         <img
@@ -215,7 +218,7 @@ const Projects = () => {
                       </Link>
                      
                     </button>
-                    </div>
+                    </a>
                   </Flex>
                 </div>
               </div>
@@ -269,7 +272,7 @@ const Projects = () => {
                     pt={"20px"}
                     justifyContent={"space-evenly"}
                   >
-                    <div className="project-github-link">
+                    <a className="project-github-link">
                     <button className={style.btn}>
                       <Link href={royalRentoGithub} target="_blank">
                         <img
@@ -287,9 +290,9 @@ const Projects = () => {
                         Github
                       </Link>
                     </button>
-                    </div>
+                    </a>
 
-                    <div className="project-deployed-link">
+                    <a className="project-deployed-link">
                     <button className={style.btn}>
                       <Link  href={royalRento_D_Link} target="_blank">
                         <img
@@ -307,7 +310,7 @@ const Projects = () => {
                         Live
                       </Link>
                     </button>
-                    </div>
+                    </a>
     
                   </Flex>
                 </div>
@@ -359,7 +362,7 @@ const Projects = () => {
                     <p style={{ fontSize: "13px" }}>HTML | CSS | JavaScript</p>
                   </div>
                   <Flex mt={"30px"} pt={"20px"} justifyContent={"space-evenly"}>
-                    <div className="project-github-link" >
+                    <a className="project-github-link" >
                     <button className={style.btn}>
                       <Link href={cosmoCosmoticGithub} target="_blank">
                         <img
@@ -377,9 +380,9 @@ const Projects = () => {
                         Github
                       </Link>
                     </button>
-                    </div>
+                    </a>
 
-                    <div className="project-deployed-link">
+                    <a className="project-deployed-link">
                     <button className={style.btn}>
                       <Link href={cosmoCosmotic_D_Link} target="_blank">
                         <img
@@ -397,7 +400,7 @@ const Projects = () => {
                         Live
                       </Link>
                     </button>
-                    </div>
+                    </a>
             
                   </Flex>
                 </div>

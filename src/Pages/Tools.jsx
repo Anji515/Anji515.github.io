@@ -57,6 +57,7 @@ function Tools() {
   return (
     <Box id="skills" h={"fit-content"} bg={"#cbd5e0"}>
       <hr />
+      <br />
       <Heading textAlign={"center"} color={"blue.600"}>
         Toolls
       </Heading>

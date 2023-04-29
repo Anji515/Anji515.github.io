@@ -6,7 +6,7 @@ import {Box,Center,Heading,Stack,Image} from '@chakra-ui/react';
       <Center bg={'#cbd5e0'} py={12}>
         
         <Box
-          className='.skills-card'
+          className='skills-card'
           role={'group'}
           p={6}
           maxW={'180px'}

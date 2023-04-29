@@ -17,7 +17,7 @@ const GitCalender = () => {
 
       <Flex justify={"center"} align={"center"} mt={{ base: 6, md: 7, lg: 8 }}>
         <Box
-          bg={"white"}
+          bg={'#7690ac'}
           w={"fit-content"}
           boxShadow={"rgba(0, 0, 0, 0.35) 0px 5px 15px"}
           p={4}
@@ -28,7 +28,7 @@ const GitCalender = () => {
           }}
         >
           <GitHubCalendar
-            style={{ border: "0px solid red", width: "100%" }}
+            style={{ border: "0px solid red",backgroundColor:'#7690ac', width: "100%",padding:'20px' }}
             username="Anji515"
             private={false}
             blockSize={15}
@@ -38,6 +38,7 @@ const GitCalender = () => {
           <Image
             w={"100%"}
             h={{ base: "100px", md: "150px",lg:'200px'}}
+            style={{ border: "0px solid red",backgroundColor:'#7690ac',padding:'20px' }}
             id="github-streak-stats"
             src="https://github-readme-streak-stats.herokuapp.com/?count_private=true&user=Anji515&theme=light&background=cbd5e0"
           ></Image>

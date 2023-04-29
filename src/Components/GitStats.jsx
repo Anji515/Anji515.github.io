@@ -17,8 +17,8 @@ const GitStats = () => {
         justifyContent={"center"}
         h={{ base: "150px", md: "200px", lg: "220px" }}
         w={{ base: "95%", md: "80%", lg: "65%" }}
-        bg={"#ffffff"}
-        padding='5px'
+        bg={'#7690ac'}
+        padding='15px'
         m={"auto"}
         mt={{ base: "20px", md: "30px", lg: "40px" }}
         border={"0px solid red"}
@@ -31,7 +31,7 @@ const GitStats = () => {
         <Image
           h="100%"
           w="60%"
-          bg={"#ffffff"}
+          // bg={"#ffffff"}
           borderRadius={"10px"}
           id="github-stats-card"
           src="https://github-readme-stats.vercel.app/api?username=Anji515&count_private=true&show_icons=true&bg_color=20232a&text_color=0bc0f1&icon_color=#166980&title_color=0bc0f1&hide_border=false"
@@ -39,7 +39,7 @@ const GitStats = () => {
         <Image
           h="100%"
           w="40%"
-          bg={"#ffffff"}
+          // bg={"#ffffff"}
           borderRadius={"10px"}
           id="github-top-langs"
           src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anji515&count_private=true&show_icons=true&bg_color=20232a&text_color=166980&icon_color=#166980&title_color=3b7087&hide_border=false"

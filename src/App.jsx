@@ -15,13 +15,19 @@ function App() {
   return (
     <div>
       <Navbar />
+      <br />
       <Home />
+      <br/>
       <About />
+      <br/>
       <Skills />
       <Tools />
+      <br/>
       <Projects/>
+      <br/>
       <GitCalender />
       <GitStats />
+      <br/>
       <ContactMe />
       <Footer />
     </div>

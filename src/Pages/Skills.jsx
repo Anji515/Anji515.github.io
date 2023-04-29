@@ -55,13 +55,12 @@ function Skills() {
           ]
       };
 
-
-
-
-
   return (
     <Box id="skills" h={"fit-content"} bg={"#cbd5e0"}>
       <hr />
+      <br />
+      <br />
+      <br />
       <Heading textAlign={"center"} color={"blue.600"}>
         Technical Skills
       </Heading>

@@ -4,7 +4,6 @@ import { CarouselComp } from './Silder';
 export const About=()=>{
     return (
       <Box
-        
         m={"auto"}
         width={"90%"}
         h={{ base: "auto", md: "500px", lg: "500px" }}
@@ -16,6 +15,7 @@ export const About=()=>{
           spacing={10}
           p={5}
         >
+          
           <Flex
             border={"0px solid blue"}
             alignItems={"center"}
@@ -27,6 +27,9 @@ export const About=()=>{
           </Flex>
 
           <Stack id="about"  class="about section" marginTop='12%' spacing={4} >
+            <br />
+            <br />
+            <br />
             <Heading textAlign={{base:'center',md:'left',lg:'left'}} color={"blue.600"}>
               About Me
             </Heading>
@@ -35,7 +38,7 @@ export const About=()=>{
             />
             <Text textAlign={"left"} id='user-detail-intro' color={"gray.500"} fontSize={{base:'md',md:'lg',lg:'lg'}}>
               A self-motivated, hard-working, and ambitious Full-Stack Web
-              Developer and a good learner with proficiency in JavaScript.
+              Developer and a good learner with proficiency in JavaScript,ReactJS,NodeJS.
               Having a Problem-solving mindset, and 1200+ hrs of hands-on
               experience in developing fully functional E-commerce applications.
               Looking forward to working as a developer and competent employee
