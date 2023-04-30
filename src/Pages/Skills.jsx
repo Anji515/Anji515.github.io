@@ -61,6 +61,11 @@ function Skills() {
       <br />
       <br />
       <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <Heading textAlign={"center"} color={"blue.600"}>
         Technical Skills
       </Heading>

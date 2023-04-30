@@ -29,7 +29,7 @@ export default function Home() {
   }
   return (
     <>
-      <Box id="home" h="30px"></Box>
+      <Box id="home" h="30px" p={'60px'}></Box>
       <Container
         maxW={{ base: "95%", sm: "80%" }}
         m="auto"

@@ -11,6 +11,8 @@ function ContactMe() {
     <div id="contact">
     <Box backgroundColor={"#1a202c"} p="2rem" border={'1px sloid red'}>
       <br />
+      <br />
+      <br />
       <Flex  borderBottom={"2px solid red"}
         w="90%" m="auto" justifyContent={"center"} fontSize={"2.5rem"} color={"white"} fontWeight="700">
         <Text>Contact </Text>
