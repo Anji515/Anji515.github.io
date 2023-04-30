@@ -147,7 +147,7 @@ export default function Navbar() {
               </Button>
 
               <Link
-               id="resume-link-1"
+                id="resume-link-1"
                 href={Resume}
                 className="nav-link resume"
                 download
@@ -155,7 +155,6 @@ export default function Navbar() {
                 target="_blank"
               >
                 <Button
-                  className="nav-link resume"
                   id="resume-button-1"
                   _hover={{background:'teal',color:'white'}}
                   colorScheme="teal"

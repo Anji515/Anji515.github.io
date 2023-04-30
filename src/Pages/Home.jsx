@@ -2,23 +2,6 @@ import {Container,Image,Link,Flex,Heading,Text,Stack,StackDivider,Icon,useColorM
 
 import { BiDownload } from "react-icons/bi";
 import Resume from "../DownloadPDF/Kommu-Anjaneyulu-Resume.pdf"
-const Feature = ({ text, icon, iconBg }) => {
-  return (
-    <Stack direction={"row"} align={"center"}>
-      <Flex
-        w={8}
-        h={8}
-        align={"center"}
-        justify={"center"}
-        rounded={"full"}
-        bg={iconBg}
-      >
-        {icon}
-      </Flex>
-      <Text fontWeight={600}>{text}</Text>
-    </Stack>
-  );
-};
 
 export default function Home() {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -83,14 +66,14 @@ export default function Home() {
                 }
               >
                 <Link
-                  id="resume-link-2"
                   href={Resume}
+                  id="resume-link-2"
                   className="nav-link resume"
                   download
                   onClick={handleResume}
                   target="_blank"
                 >
-                  <Button colorScheme="teal" size="md" id="resume-button-2">
+                  <Button id="resume-button-2" colorScheme="teal" size="md">
                   Resume
                     <Text mr={"4px"} ml={"4px"}>
                       <BiDownload />
@@ -180,6 +163,7 @@ export default function Home() {
               w={{ base: "200px", lg: "350px" }}
               height={{ base: "200px", lg: "350px" }}
               mt="-10px"
+              className="home-img"
               borderRadius={'50%'}
               alt={"feature image"}
               src='https://i.ibb.co/Q9HgQnN/MyPhotos.jpg'
@@ -191,138 +175,3 @@ export default function Home() {
     </>
   );
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// import {Button,Flex,Heading,Image,Stack,Text} from '@chakra-ui/react';
-// import { DownloadIcon } from '@chakra-ui/icons'
-// import { Link } from "react-scroll";
-// import React from "react";
-// import resume from '../DownloadPDF/Kommu-Anjaneyulu-Resume.pdf'
-// // console.log('resume:', resume)
-
-//   export default function Home() {
-
-//     return (
-//       <div id='home'>
-
-//       <Stack
-//       border={"0px solid black"}
-//       h={{ base: "auto", md: "500px", lg: "500px" }}
-//       padding="20px 20px"
-//       direction={{ base: "column", md: "row" }}
-//       bg="#cbd5e0"
-//       boxShadow="2xl"
-//       zIndex={99}
-//     >
-//       <Flex
-//         border={"0px solid black"}
-//         w={['100%','100%','100%','75%']}
-//         // ,{ base: "100%", md: "100%", lg: "70%" }
-//         p={{ base: "20px", md: "15px", lg: "10px" }}
-//         justifyContent={"center"}
-//       >
-//         <Image
-//           className="home-img"
-//           alt={"Anji Image"}
-//           objectFit={"cover"}
-//           borderRadius={"50%"}
-//           border="5px solid teal"
-//           boxShadow="2xl"
-//           width={'52%'}
-//           src={
-//             "https://i.ibb.co/Q9HgQnN/MyPhotos.jpg"
-//           }
-//         />
-//       </Flex>
-//       <Flex
-//         w={{ base: "100%", md: "50%", lg: "50%" }}
-//         align={"center"}
-//         justify={"center"}
-        
-//         >
-//         <Stack
-//           // spacing={6}
-//           w={{ base: "92%", md: "98%", lg: "100%" }}
-//           // marginLeft='-350px'
-//           >
-//           <Heading
-//             id="user-detail-name"
-//             textAlign={{ base: "center", md: "left", lg: "left" }}
-//             fontSize={{ base: "2xl", md: "3xl", lg: "4xl" }}
-//           >
-//             <Text  color={"blue.500"} as={"span"}>
-//               Hi 👋, I'am
-//               <br />
-//               Kommu Anjaneyulu
-//             </Text>
-//           </Heading>
-//           <Text
-//             fontSize={{ base: "md", lg: "lg" }}
-//             color={"gray.800"}
-//             textAlign={{ base: "left", md: "left", lg: "left" }}
-//           >
-//             Detailed-oriented and responsible Full-Stack Web Developer with a
-//             great knowledge of Web Development. Capable of writing efficient
-//             code using ReactJS, CSS, NodeJS and Express. Passionate about
-//             coding and looking for an opportunity in software development.
-//           </Text>
-//           <Stack direction={{ base: "column", md: "row" }} spacing={4}>
-//           <a href={resume} download>
-//               <Button
-//                 // onClick={handleDownloadResume}
-//                 rounded={"full"}
-//                 bg={"blue.400"}
-//                 color={"white"}
-//                 id="resume-button-2"
-//                 _hover={{
-//                   bg: "gray.200",
-//                   color: "black",
-//                 }}
-//               >
-//                 <Text m={"4px"}>Resume</Text>
-//                 <DownloadIcon />
-//               </Button>
-//                 </a>
-           
-//             <Link
-//               to="contact"
-//               spy={true}
-//               smooth={true}
-//               offset={-80}
-//               duration={300}
-//               >
-//               <Button to='contact'
-//                 rounded={"full"}
-//                 _hover={{
-//                   bg: "blue.400",
-//                   color: "white",
-//                 }}
-//               >
-//                 {" "}
-//                 Contact Me
-//               </Button>
-//             </Link>
-//           </Stack>
-//         </Stack>
-//       </Flex>
-//      </Stack>
-//           </div>
-//       );
-//   }
