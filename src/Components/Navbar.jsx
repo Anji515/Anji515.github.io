@@ -151,10 +151,10 @@ export default function Navbar() {
                 href={Resume}
                 className="nav-link resume"
                 download
-                onClick={handleResume}
                 target="_blank"
               >
                 <Button
+                  onClick={handleResume}
                   id="resume-button-1"
                   _hover={{background:'teal',color:'white'}}
                   colorScheme="teal"

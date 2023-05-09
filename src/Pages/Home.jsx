@@ -70,10 +70,9 @@ export default function Home() {
                   id="resume-link-2"
                   className="nav-link resume"
                   download
-                  onClick={handleResume}
                   target="_blank"
                 >
-                  <Button id="resume-button-2" colorScheme="teal" size="md">
+                  <Button onClick={handleResume} id="resume-button-2" colorScheme="teal" size="md">
                   Resume
                     <Text mr={"4px"} ml={"4px"}>
                       <BiDownload />
