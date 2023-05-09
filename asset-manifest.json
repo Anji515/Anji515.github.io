@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.17bc8c02.css",
-    "main.js": "/static/js/main.b60ed873.js",
+    "main.js": "/static/js/main.ae9a7380.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/Kommu-Anjaneyulu-Resume.pdf": "/static/media/Kommu-Anjaneyulu-Resume.9478977b1e5ad359a84d.pdf",
+    "static/media/Kommu-Anjaneyulu-Resume.pdf": "/static/media/Kommu-Anjaneyulu-Resume.2b92b3e1be15cccc993e.pdf",
     "static/media/linkedin.png": "/static/media/linkedin.5d1ddeaf918afefc130c.png",
     "static/media/address.png": "/static/media/address.448afbc6ea3fcbdd4e8b.png",
     "static/media/github.png": "/static/media/github.fcf90be5a6dc8bbe13ed.png",
@@ -15,11 +15,11 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.17bc8c02.css.map": "/static/css/main.17bc8c02.css.map",
-    "main.b60ed873.js.map": "/static/js/main.b60ed873.js.map",
+    "main.ae9a7380.js.map": "/static/js/main.ae9a7380.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.17bc8c02.css",
-    "static/js/main.b60ed873.js"
+    "static/js/main.ae9a7380.js"
   ]
 }
