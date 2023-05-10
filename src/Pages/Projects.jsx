@@ -43,7 +43,7 @@ let data = [
     title: "KFC - Clone",
     techStack: ["HTML", "CSS", "JavaScript"],
     github: "https://github.com/Rishav048/-unique-stretch-3372",
-    deploy: "https://transcendent-stardust-f3081b.netlify.app/",
+    deploy: "https://elegant-lolly-ab23bc.netlify.app/",
   },
   {
     image:`https://i.ibb.co/VT4HQB1/Screenshot-1718.png`,

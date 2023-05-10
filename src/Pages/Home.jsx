@@ -65,20 +65,20 @@ export default function Home() {
                   />
                 }
               >
-                <Link
+              <Button id="resume-button-2" onClick={handleResume} colorScheme="teal" size="md">
+                  <Link
                   href={Resume}
                   id="resume-link-2"
                   className="nav-link resume"
                   download
                   target="_blank"
                 >
-                  <Button onClick={handleResume} id="resume-button-2" colorScheme="teal" size="md">
                   Resume
                     <Text mr={"4px"} ml={"4px"}>
                       <BiDownload />
                     </Text>
-                  </Button>
                 </Link>
+                </Button>
                 <Flex justifyContent={"space-around"} w="25%">
                   <Link
                     m="5px"

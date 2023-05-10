@@ -44,9 +44,9 @@ export const About=()=>{
             />
               <Flex
               border={'0px solid red'}
-              width={'110%'}
+              width={'95%'}
               direction={{ base: "column", md: "row" }}
-              justifyContent={"space-between"}
+              justifyContent={"space-around"}
               textAlign="center"
               gap={'5px'}
               marginBottom={"20px"}
@@ -78,7 +78,7 @@ export const About=()=>{
                 <Text>25+ Mini Projects</Text>
               </Box>
 
-              <Box
+              {/* <Box
                 w={{ base: "100%", md: "30%" }}
                 mt={{ base: "30px", md: "0px" }}
                 padding={"18px"}
@@ -89,7 +89,7 @@ export const About=()=>{
               >
                 <Text>100+ Hours</Text>
                 <Text>Soft Skills</Text>
-              </Box>
+              </Box> */}
 
               <Box
                 w={{ base: "100%", md: "30%" }}

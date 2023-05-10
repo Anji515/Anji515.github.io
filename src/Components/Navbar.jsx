@@ -15,20 +15,20 @@ import { MoonIcon, SunIcon, HamburgerIcon } from "@chakra-ui/icons";
 import { BiDownload } from "react-icons/bi";
 import DrawerExample from "./SideBar";
 import Resume from "../DownloadPDF/Kommu-Anjaneyulu-Resume.pdf"
-const NavLink = ({ children }) => (
-  <Link
-    px={2}
-    py={1}
-    rounded={"md"}
-    _hover={{
-      textDecoration: "none",
-      bg: useColorModeValue("gray.200", "black.700"),
-    }}
-    href={"#"}
-  >
-    {children}
-  </Link>
-);
+// const NavLink = ({ children }) => (
+//   <Link
+//     px={2}
+//     py={1}
+//     rounded={"md"}
+//     _hover={{
+//       textDecoration: "none",
+//       bg: useColorModeValue("gray.200", "black.700"),
+//     }}
+//     href={"#"}
+//   >
+//     {children}
+//   </Link>
+// );
 
 export default function Navbar() {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -146,25 +146,24 @@ export default function Navbar() {
                 <Link className="nav-link contact">Contact</Link>
               </Button>
 
+              <Button
+                  id="resume-button-1"
+                  _hover={{background:'teal',color:'white'}}
+                  onClick={handleResume}
+                  colorScheme="teal"
+                  size="md"
+                >
               <Link
                 id="resume-link-1"
                 href={Resume}
                 className="nav-link resume"
                 download
                 target="_blank"
-              >
-                <Button
-                  onClick={handleResume}
-                  id="resume-button-1"
-                  _hover={{background:'teal',color:'white'}}
-                  colorScheme="teal"
-                  size="md"
-                > Resume 
-                  <Text ml={'4px'} mr={"4px"}>
-                    <BiDownload />
+              > <Text ml={'4px'} mr={"4px"}>
+                    Resume <BiDownload />
                   </Text>
-                </Button>
-              </Link>
+                 </Link>
+              </Button>
               <Button onClick={toggleColorMode}>
                 {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
               </Button>
