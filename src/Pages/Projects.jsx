@@ -14,9 +14,9 @@ const Projects = () => {
         justifyContent="center"
         textAlign={"center"}
         m={"auto"}
-        columns={{ base: "1", md: "2", xl: "2" }}
+        columns={[1,2,2,3,3]}
         spacing={{ base: "20px", md: "50px" }}
-        w={{ base: "95%", md: "81%" ,xl: "100%"}}
+        w={{ base: "95%", md: "95%" ,xl: "100%"}}
         marginTop="70px"
         marginBottom={"50px"}
       >
@@ -29,6 +29,14 @@ const Projects = () => {
 };
 
 let data = [
+  {
+    image:`https://user-images.githubusercontent.com/72447250/240939588-4b47e5db-abce-4f9f-b7ef-027d6c668900.png`,
+    desc: "Fashion Verge is an e-commerce fashion brand which fulfills all fashion needs in one platform. E-Commerce, Clothing & Apparel.",
+    title: "Fashion Verge - Clone",
+    techStack: ["React", "Chakra UI", "Json-Server", "CSS", "JavaScript", "Express.JS", "Node.JS", "Mongo.db"],
+    github: "https://github.com/RitikSingh11661/fashion_verge",
+    deploy: "https://fashion-verge.vercel.app/",
+  },
   {
     image:`https://i.ibb.co/bdxjpLd/Screenshot-1717.png`,
     title: "GadgetVault - Clone",
@@ -60,7 +68,7 @@ let data = [
     techStack: ["HTML", "CSS", "JavaScript", "Json-Server" ],
     github: "https://github.com/Anji515/zesty-whistle-6002",
     deploy: "https://dapper-cheesecake-326981.netlify.app/",
-  },
+  }
   ];
 
 export default Projects;

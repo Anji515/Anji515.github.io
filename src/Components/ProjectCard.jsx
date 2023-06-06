@@ -18,7 +18,8 @@ function ProjectCard({ image, title, techStack, desc, github, deploy }) {
     <Box
       className="project-card"
       m="auto"
-      w={["90%","90%","90%","70%"]}
+      h={['450px','450px','450px','500px']}
+      w={["90%","90%","90%","95%"]}
       borderWidth="1px"
       borderRadius="lg"
       overflow="hidden"
