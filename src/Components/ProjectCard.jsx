@@ -18,7 +18,7 @@ function ProjectCard({ image, title, techStack, desc, github, deploy }) {
     <Box
       className="project-card"
       m="auto"
-      w="70%"
+      w={["90%","90%","90%","70%"]}
       borderWidth="1px"
       borderRadius="lg"
       overflow="hidden"
@@ -92,7 +92,6 @@ function ProjectCard({ image, title, techStack, desc, github, deploy }) {
           <Link class="project-github-link" href={github} isExternal>
             <Button size="sm" colorScheme="teal" variant="solid">
               <Text mr={"4px"}>GitHub</Text>
-
               <BsGithub />
             </Button>
           </Link>

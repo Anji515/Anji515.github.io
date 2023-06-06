@@ -8,8 +8,8 @@ import address from '../Logos/address.png';
 
 function ContactMe() {
   return (
-    <div id="contact">
-    <Box backgroundColor={"#1a202c"} p="2rem" border={'1px sloid red'}>
+    <div id="contact" >
+    <Box backgroundColor={"#1a202c"} p="2rem" >
       <br />
       <br />
       <br />
@@ -19,7 +19,7 @@ function ContactMe() {
         <Text color="red" ml="0.5rem">Me</Text>
       </Flex >
 
-      <Stack minH={'60vh'} width='80%' margin={'auto'} direction={{ base: 'column', md: 'row' }} p='-50px' >
+      <Stack minH={'60vh'} width='80%' margin={'auto'} direction={['column','column','column','row' ]} p='-50px' >
       <Box  m="auto" mt={8} w={{base:"100%",sm:"90%",md:"70%",lg:"60%"}}>
         <Flex mt='40px' flexDirection={"column"}  gap="3rem" >
 
@@ -77,9 +77,11 @@ function ContactMe() {
         </Flex>
       </Box>
 
-      
-      <Flex flex={1} align={'center'} justify={'center'}>
+
+      <Box flex={1} align={'center'} justify={'center'}>
         <Stack color={'white'} spacing={4} w={'full'} maxW={'md'}>
+          <br />
+          <br />
           <Heading fontSize={'3xl'} align={'center'}>Connect With Me</Heading>
           <FormControl id="name">
             <FormLabel>Your Name</FormLabel>
@@ -99,7 +101,7 @@ function ContactMe() {
             </Button>
           </Stack>
         </Stack>
-      </Flex>
+      </Box>
     </Stack>
     </Box>
     </div>

@@ -12,7 +12,7 @@ export const About=()=>{
       >
         <SimpleGrid
           justifyContent={"space-between"}
-          columns={{ base: 1, md: 2 }}
+          columns={[1,1,1,2]}
           spacing={5}
           p={5}
         >
@@ -21,13 +21,14 @@ export const About=()=>{
             border={"0px solid blue"}
             alignItems={"center"}
             justifyContent={"center"}
+            display={['block','block','none','block']}
           >
             <Box >
             <br />
             <br />
             <br />
               <CarouselComp />
-            </Box>
+            </Box>  
           </Flex>
 
           <Stack id="about"  class="about section" marginTop='12%' spacing={4} >

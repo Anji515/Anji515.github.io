@@ -71,8 +71,8 @@ export default function Navbar() {
           <Flex w={{ base: "50%", sm: "20%" }} fontSize={"25px"} >
           <Text as='em'>Kommu Anjaneyulu</Text>
           <Image src="https://i.ibb.co/myw6h6c/Kommu-Anjaneyulu-2.png" 
-          w='80px'
-          h='80px'
+          w='70px'
+          h='70px'
           borderRadius={'50%'}
           alt='my logo'/>
           </Flex>

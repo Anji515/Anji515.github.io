@@ -15,7 +15,7 @@ const Projects = () => {
         textAlign={"center"}
         m={"auto"}
         columns={{ base: "1", md: "2", xl: "2" }}
-        spacing={{ base: "10px", md: "10px" }}
+        spacing={{ base: "20px", md: "50px" }}
         w={{ base: "95%", md: "81%" ,xl: "100%"}}
         marginTop="70px"
         marginBottom={"50px"}
