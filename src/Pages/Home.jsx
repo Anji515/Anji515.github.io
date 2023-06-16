@@ -14,6 +14,7 @@ export default function Home() {
     <>
       <Box id="home" h="30px" p={'60px'}></Box>
       <Container
+        border={'0px solid red'}
         maxW={{ base: "95%", sm: "80%" }}
         m="auto"
         mt={"40px"}
@@ -28,6 +29,7 @@ export default function Home() {
             w={{ base: "100%", lg: '"50%"' }}
             spacing={4}
             justifyContent="center"
+            border={'0px solid blue'}
           >
             <Text
               fontWeight={600}
@@ -156,12 +158,13 @@ export default function Home() {
             w={{ base: "100%", lg: '"50%"' }}
             justifyContent={{ base: "center", lg: "end" }}
             alignItems={"center"}
+            border={'0px solid blue'}
             m="10px"
           >
             <Image
               w={{ base: "200px", lg: "350px" }}
               height={{ base: "200px", lg: "350px" }}
-              mt="-10px"
+              // mt="-10px"
               className="home-img"
               borderRadius={'50%'}
               alt={"feature image"}

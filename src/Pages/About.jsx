@@ -24,6 +24,7 @@ export const About=()=>{
             alignItems={"center"}
             justifyContent={"center"}
             display={['none','none','none','block']}
+            marginTop={'10px'}
           >
             <Box >
               <CarouselComp />
@@ -31,7 +32,7 @@ export const About=()=>{
           </Flex>
 
           <Stack id="about"  class="about section" marginTop='2%' spacing={4} border={"0px solid red"}>
-            <Heading textAlign={{base:'center',md:'left',lg:'left'}} color={"blue.600"}>
+            <Heading textAlign={{base:'center',md:'center',lg:'center'}} color={"blue.600"}>
               About Me
             </Heading>
             <hr
