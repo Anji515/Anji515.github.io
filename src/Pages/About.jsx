@@ -23,7 +23,7 @@ export const About=()=>{
             border={"0px solid blue"}
             alignItems={"center"}
             justifyContent={"center"}
-            display={['block','block','none','block']}
+            display={['none','none','none','block']}
           >
             <Box >
               <CarouselComp />
