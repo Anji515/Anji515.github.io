@@ -35,7 +35,7 @@ import {Box,Center,Heading,Stack,Image} from '@chakra-ui/react';
           <Stack pt={10} align={'center'} 
           className="skills-card-name"
           >
-            <Heading fontSize={'15px'} fontFamily={'body'} fontWeight={'bold'}>
+            <Heading border={'0px solid red'} color={'black'} fontSize={'15px'} fontFamily={'body'} fontWeight={'bold'}>
               {name}
             </Heading>
           </Stack>

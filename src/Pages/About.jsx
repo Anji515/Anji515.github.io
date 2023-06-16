@@ -10,11 +10,13 @@ export const About=()=>{
         padding={20}
         border={'0px solid red'}
       >
+      <br />
+      <br />
         <SimpleGrid
           justifyContent={"space-between"}
           columns={[1,1,1,2]}
           spacing={5}
-          p={5}
+          p={1}
         >
           
           <Flex
@@ -24,25 +26,18 @@ export const About=()=>{
             display={['block','block','none','block']}
           >
             <Box >
-            <br />
-            <br />
-            <br />
               <CarouselComp />
             </Box>  
           </Flex>
 
-          <Stack id="about"  class="about section" marginTop='12%' spacing={4} >
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
+          <Stack id="about"  class="about section" marginTop='2%' spacing={4} border={"0px solid red"}>
             <Heading textAlign={{base:'center',md:'left',lg:'left'}} color={"blue.600"}>
               About Me
             </Heading>
             <hr
               style={{ color: "black", height: "3px", fontWeight: "bolder" }}
             />
+            <br />
               <Flex
               border={'0px solid red'}
               width={'95%'}
@@ -50,7 +45,7 @@ export const About=()=>{
               justifyContent={"space-around"}
               textAlign="center"
               gap={'5px'}
-              marginBottom={"20px"}
+              // marginBottom={"20px"}
             >
               <Box
                 // w="30%"
@@ -105,6 +100,8 @@ export const About=()=>{
                 <Text>Problems Solved</Text>
               </Box>
             </Flex>
+            <br />
+            <br />
             <Text textAlign={"left"} id='user-detail-intro' color={"gray.500"} fontSize={{base:'md',md:'lg',lg:'lg'}}>
               A self-motivated, hard-working, and ambitious Full-Stack Web
               Developer and a good learner with proficiency in JavaScript,ReactJS,NodeJS.

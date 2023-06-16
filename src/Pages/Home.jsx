@@ -68,9 +68,9 @@ export default function Home() {
               <Button id="resume-button-2" onClick={handleResume} colorScheme="teal" size="md">
                   <Link
                   href={Resume}
+                  download='Kommu-Anjaneyulu-Resume.pdf'
                   id="resume-link-2"
                   className="nav-link resume"
-                  download
                   target="_blank"
                 >
                   Resume

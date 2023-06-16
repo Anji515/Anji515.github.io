@@ -156,8 +156,8 @@ export default function Navbar() {
               <Link
                 id="resume-link-1"
                 href={Resume}
+                download='Kommu-Anjaneyulu-Resume.pdf'
                 className="nav-link resume"
-                download
                 target="_blank"
               > <Text ml={'4px'} mr={"4px"}>
                     Resume <BiDownload />
