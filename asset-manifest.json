@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.17bc8c02.css",
-    "main.js": "/static/js/main.ee3e8e65.js",
+    "main.js": "/static/js/main.f3ed42fe.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/Kommu-Anjaneyulu-Resume.pdf": "/static/media/Kommu-Anjaneyulu-Resume.9f0d58043b40c45a0352.pdf",
     "static/media/linkedin.png": "/static/media/linkedin.5d1ddeaf918afefc130c.png",
@@ -15,11 +15,11 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.17bc8c02.css.map": "/static/css/main.17bc8c02.css.map",
-    "main.ee3e8e65.js.map": "/static/js/main.ee3e8e65.js.map",
+    "main.f3ed42fe.js.map": "/static/js/main.f3ed42fe.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.17bc8c02.css",
-    "static/js/main.ee3e8e65.js"
+    "static/js/main.f3ed42fe.js"
   ]
 }
