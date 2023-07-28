@@ -30,6 +30,14 @@ const Projects = () => {
 
 let data = [
   {
+    image:`https://i.ibb.co/85Fgsq8/Landing-page.png`,
+    desc: "Book Easy Movie App - Your hassle-free entertainment hub! Book movies and live events online with a few taps. Enjoy seamless reservations and stay updated with the latest releases.",
+    title: "Book Easy",
+    techStack: ["Angular", "Python", "Flask", "CSS", "Mongo.db"],
+    github: "https://github.com/Anji515/BookEasyApp",
+    deploy: "https://book-easy-app.vercel.app/",
+  },
+  {
     image:`https://user-images.githubusercontent.com/72447250/240939588-4b47e5db-abce-4f9f-b7ef-027d6c668900.png`,
     desc: "Fashion Verge is an e-commerce fashion brand which fulfills all fashion needs in one platform. E-Commerce, Clothing & Apparel.",
     title: "Fashion Verge - Clone",
