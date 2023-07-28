@@ -49,7 +49,7 @@ function ContactMe() {
             <Text>
               <a href="https://www.linkedin.com/in/anjaneyulu-kommu-648a1613b/" target={"_blank"} rel="noreferrer">
                 <Text color={"white"} fontWeight="700" fontSize={['11px','md','xl']} pl={"1rem"}>
-                Kommu_Anjaneyulu_LinkedIn
+                Kommu_Anjaneyulu_Linked In
                 </Text>
               </a>
             </Text>

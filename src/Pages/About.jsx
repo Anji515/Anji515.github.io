@@ -71,22 +71,9 @@ export const About=()=>{
                   "rgba(255, 255, 255, 0.17) 0px -23px 25px 0px inset, rgba(255, 255, 255, 0.15) 0px -36px 30px 0px inset, rgba(255, 255, 255, 0.1) 0px -79px 40px 0px inset, rgba(255, 255, 255, 0.06) 0px 2px 1px, rgba(255, 255, 255, 0.09) 0px 4px 2px, rgba(255, 255, 255, 0.09) 0px 8px 4px, rgba(255, 255, 255, 0.09) 0px 16px 8px, rgba(255, 255, 255, 0.09) 0px 2px 16px"
                 }
               >
-                <Text>5+ Major Projects</Text>
+                <Text>6+ Major Projects</Text>
                 <Text>25+ Mini Projects</Text>
               </Box>
-
-              {/* <Box
-                w={{ base: "100%", md: "30%" }}
-                mt={{ base: "30px", md: "0px" }}
-                padding={"18px"}
-                borderRadius="9px"
-                boxShadow={
-                  "rgba(255, 255, 255, 0.17) 0px -23px 25px 0px inset, rgba(255, 255, 255, 0.15) 0px -36px 30px 0px inset, rgba(255, 255, 255, 0.1) 0px -79px 40px 0px inset, rgba(255, 255, 255, 0.06) 0px 2px 1px, rgba(255, 255, 255, 0.09) 0px 4px 2px, rgba(255, 255, 255, 0.09) 0px 8px 4px, rgba(255, 255, 255, 0.09) 0px 16px 8px, rgba(255, 255, 255, 0.09) 0px 2px 16px"
-                }
-              >
-                <Text>100+ Hours</Text>
-                <Text>Soft Skills</Text>
-              </Box> */}
 
               <Box
                 w={{ base: "100%", md: "30%" }}
@@ -109,7 +96,7 @@ export const About=()=>{
               Having a Problem-solving mindset, and 1200+ hrs of hands-on
               experience in developing fully functional E-commerce applications.
               Looking forward to working as a developer and competent employee
-              in an exciting tech company.
+              in an exciting tech company.Demonstrated advanced tech skills using Generative AI and prompt engineering in Angular, Python, and Flask.
             </Text>
           </Stack>
         </SimpleGrid>
